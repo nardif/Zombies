@@ -1,0 +1,71 @@
+
+body{
+    background-image: url('./images/background.png');
+    font-family:Arial, Helvetica, sans-serif;
+}
+.cartelStart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnclass{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(86, 75, 75);
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnclass:hover{
+    opacity: .7;
+}
+#canvas1{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    background: rgb(86, 75, 75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cartelLose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cartelWin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnReiniciar{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(86, 75, 75);
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnReiniciar:hover{
+    opacity: .7;
+}
